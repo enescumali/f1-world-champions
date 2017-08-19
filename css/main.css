@@ -1,0 +1,37 @@
+.main-container{
+	position: relative;
+	min-height: 400px;
+}
+
+.modal-body{
+	min-height: 400px;
+}
+
+.table-container{
+	
+}
+
+.spinner{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70px;
+	height: 70px;
+	margin-top: -20px;
+	margin-left: -20px;	
+	z-index: 2;
+}
+
+.spinner img{
+	display: block;
+	width: 100%;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+
+.btn.disabled{
+	pointer-events: none;
+}
+
